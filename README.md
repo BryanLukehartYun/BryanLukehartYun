@@ -1,7 +1,7 @@
 # Bryan Lukehart-Yun
 
 **M.S. Mechanical Engineering — Rochester Institute of Technology (2025)**  
-**Focus: Guidance, Navigation, and Control | Nonlinear Dynamics | State Estimation**
+**Focus: Guidance, Navigation, and Control | Nonlinear Dynamics | State Estimation | Soft Robotics**
 
 ---
 
@@ -57,25 +57,6 @@ A fully local, privacy-first budget aggregator built in Python. Ingests CSV expo
 
 ---
 
-## Experience Highlights
-
-**Nonlinear Systems Researcher — RIT BioSEL Lab** *(Aug 2023 – Dec 2025)*  
-M.S. thesis research on McKibben PAM dynamics. Built and validated a full GNC framework in MATLAB processing 11M+ samples across 40+ hours of actuation testing. Documenting 15M+ sample dataset for publication in Data in Brief.
-
-**Student Engineering Trainee — Naval Research Laboratory** *(Jun 2022 – Aug 2022)*  
-Engineered a modular C++ interface synchronizing a Meca500 robotic arm with a 6-DOF hexapod test platform for precision multiaxial materials testing. Implemented kinematic constraints preventing singularities during automated testing. Presented at Deaf in DoD STEM Conferences (2022, 2023).
-
-**Mechanical Engineering Co-op — DOW Inc.** *(May 2021 – Nov 2021)*  
-Materials permeability testing and V&V against ASTM standards. Automated legacy wood-fracture quantification using Python/OpenCV, replacing subjective visual ratings with reproducible batch-processed measurements.
-
-**Journeyman Fellow — Army Research Laboratory** *(Feb 2020 – Aug 2020)*  
-Fabricated and characterized piezoelectric MEMS prototypes. Batch-level statistical V&V using a wafer prober. Thermal packaging simulations via ANSYS FEA.
-
-**Undergrad Research Assistant — Harvard University, Whitesides Research Group** *(Jun 2019 – Aug 2019)*  
-Fabricated and validated kirigami actuators. Established multi-material 3D printing infrastructure.
-
----
-
 ## Research
 
 **Thesis:** Stable Open-Loop Modelling of McKibben Muscle with Tunable Slider  
@@ -83,6 +64,11 @@ Fabricated and validated kirigami actuators. Established multi-material 3D print
 **Supervisor:** Dr. Kathleen Lamkin-Kennard  
 **Status:** Under embargo pending publications in IEEE T-RO, IJRR, and Data in Brief  
 **Archive:** [RIT Digital Commons](https://repository.rit.edu)
+
+**REU:** Harvard University — **Whitesides Research Group** (2019)  
+Fabrication and validation of kirigami actuators. Direct academic lineage to the foundational soft robotics research that motivates this work. 
+
+[REU Profile Link](https://sites.google.com/g.harvard.edu/reu-participant-profiles/2019)
 
 ---
 
