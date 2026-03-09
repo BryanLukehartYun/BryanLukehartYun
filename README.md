@@ -38,7 +38,12 @@ Prior to graduate research, I've worked across the federal research and industry
 Full nonlinear GNC framework for Pneumatic Artificial Muscles. Features NLARX system identification, UKF state estimation validated via Monte Carlo simulation, and NMPC achieving a 75.6% reduction in tracking error vs. baseline PID. Derived from M.S. thesis research at RIT BioSEL Lab.
 
 ### [Applied-Dynamics-and-Controls](https://github.com/BryanLukehartYun/Applied-dynamics-and-controls)
-Aerospace GNC portfolio. Considered Complete: a two-part fixed-wing flight dynamics study on two module that complements each other: 6-DOF nonlinear truth model and linearization audit with full modal stability analysis and V&V overlay validation. Interplanetary mission design, orbital mechanics, and SysID modules planned.
+Aerospace GNC portfolio spanning flight dynamics, state estimation, and 
+interplanetary mission design. Modules: 6-DOF nonlinear truth model with 
+full modal stability analysis; satellite quaternion UKF with Monte Carlo 
+validation; and constrained Earth-to-Saturn trajectory optimization with 
+symbolically-derived delta-V cost function. Python migration and 
+interactive visualization in progress.
 
 ---
 
