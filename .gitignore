@@ -1,0 +1,23 @@
+# General macOS System Noise
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon Resource Forks
+Icon
+
+# Thumbnails and Metadata
+._*
+
+# Files that might be created by the Finder
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# GitHub Desktop / GUI specific
+.recommender/
+*.stackdump
