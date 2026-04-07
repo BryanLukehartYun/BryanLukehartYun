@@ -31,7 +31,6 @@ While my recent research derived from my M.S. thesis focuses on soft pneumatic a
 | **Your Work** | **Aerospace Application** | **General Robotics Application** |
 |---|---|---|
 | **6-DOF Nonlinear Truth Modeling & Linearization Audit** | High-fidelity flight simulators for aircraft/spacecraft transition phases | Full-body physics engines for legged locomotion or multi-joint systems | 
-| **Nonlinear plant identification (NLARX)** | Aircraft aerodynamic model ID from flight test data | Aircraft aerodynamic model ID from flight test data|
 | **Nonlinear plant identification (NLARX)** | Aircraft aerodynamic model ID from flight test data | Actuator dynamics learning; system adaptation to aging/temperature |
 | **UKF for state estimation under nonlinear hysteresis** | Aircraft attitude estimation with actuator saturation & sensor bias | Manipulator joint state with friction/backlash; quadrotor localization under IMU drift |
 | **Jacobian Proxy Analysis for Estimator Stability** | Formally quantifying when an EKF will fail during high-dynamic flight maneuvers | Proving estimator reliability for highly nonlinear soft-body or bio-inspired robots | 
@@ -48,11 +47,11 @@ The technical depth from Federal labs (NRL, ARL) and DOW demonstrates ability to
 
 | Domain | Tools |
 |---|---|
-| Primary Language | MATLAB, Python |
-| Legacy / Simulation | Simulink |
+| Primary Language | Python |
+| Legacy / Simulation | MATLAB / Simulink |
 | Embedded & Robotics | C++ |
 | Control Methods | NMPC, PID, State-Space |
-| Operating Systems | Linux (Arch, Debian), MacOS, Windows (Work Related)|
+| Operating Systems | Linux (Arch, Debian), MacOS, Windows (Work-Related)|
 | Git | GitHUB, Forgejo (Fork of Gitea)|
 | Estimation | UKF, EKF, CKF |
 | System ID | NLARX (Sigmoid, Wavelet, idTreePartition), Mathematical Modeling, Model Selection |
