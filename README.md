@@ -67,7 +67,7 @@ The technical depth from Federal labs (NRL, ARL) and DOW demonstrates ability to
 
 ## Featured Repositories
 
-### [Empirical-Modeling-and-Control-for-Nonlinear-Soft-Actuators](https://github.com/BryanLukehartYun/Empirical-Modeling-and-Data-Driven-Control-of-Nonlinear-Soft-Actuators)[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18737435.svg)](https://doi.org/10.5281/zenodo.18737435)
+### [Empirical-Modeling-and-Control-for-Nonlinear-Soft-Actuators](https://github.com/BryanLukehartYun/Empirical-Modeling-and-Data-Driven-Control-of-Nonlinear-Soft-Actuators) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18737435.svg)](https://doi.org/10.5281/zenodo.18737435)
 Full framework for Pneumatic Artificial Muscles that pertains to Empirical Modeling and Controls. Currently features NLARX system identification, UKF state estimation validated via Monte Carlo simulation, and NMPC achieving a 75.6% reduction in tracking error vs. baseline PID derived from legacy MATLAB stack and extended. Recently finished porting to Python as of mid April 2026. **Derived from M.S. thesis research at RIT BioSEL Lab.**
 
 ### [Applied-Dynamics-and-Controls](https://github.com/BryanLukehartYun/Applied-dynamics-and-controls)
