@@ -1,11 +1,11 @@
 # Bryan Lukehart-Yun
 
 **M.S. Mechanical Engineering — Rochester Institute of Technology (2025)**  
-**Focus: Guidance, Navigation, and Control (Targeting for Roles) | Nonlinear Dynamics | State Estimation | Soft Robotics**
+**Focus: Guidance, Navigation, and Control (Targeting for Roles) | Nonlinear Dynamics with Modeling | State Estimation | Robotics**
 
 ---
 
-## About
+## About Me
 
 I'm a recent M.S. graduate in Mechanical Engineering (RIT, Dec 2025) with research focus on nonlinear actuator dynamics and Controls system. My work sits at the intersection of classical control theory and modern nonlinear methods—from 6-DOF fixed-wing simulations to NMPC-driven soft actuator control.
 
@@ -37,7 +37,7 @@ While my recent research derived from my M.S. thesis focuses on soft pneumatic a
 | **NMPC trajectory tracking with constraints** | Reference flight path tracking under aerodynamic uncertainty | Autonomous vehicle waypoint following; robot arm reaching tasks |
 | **Robustness validation via Monte Carlo under chaos** | Flight control under wind gusts + sensor noise + actuator faults | Robot motion under environmental disturbances + wear |
 | **Kinematic Constraints & Collision Avoidance (C++)** | Autonomous docking maneuvers or robotic satellite servicing (OSAM-1 for example) | Safety-Critical Motion Planning: Industrial arms in shared workspaces | 
-| **Large-scale Signal Processing (11M+ samples)** | Real-time telemetry analysis and flight test data reduction for airframe stress | Big Data Robotics: Processing massive sensor logs for fleet-wide predictive maintenance |  
+| **Large-scale Signal Processing (15M+ samples)** | Real-time telemetry analysis and flight test data reduction for airframe stress | Big Data Robotics: Processing massive sensor logs for fleet-wide predictive maintenance |  
 
 The technical depth from Federal labs (NRL, ARL) and DOW demonstrates ability to work across materials science, sensor integration, and manufacturing constraints which are all applicable to aerospace/robotics system design.
 
@@ -67,8 +67,8 @@ The technical depth from Federal labs (NRL, ARL) and DOW demonstrates ability to
 
 ## Featured Repositories
 
-### [Nonlinear-Actuators-GNC-Robotics-Framework](https://github.com/BryanLukehartYun/Nonlinear-Actuators-GNC-Robotics-Framework)
-Full nonlinear GNC framework for Pneumatic Artificial Muscles. Features NLARX system identification, UKF state estimation validated via Monte Carlo simulation, and NMPC achieving a 75.6% reduction in tracking error vs. baseline PID. Derived from M.S. thesis research at RIT BioSEL Lab.
+### [Nonlinear-Actuators-GNC-Robotics-Framework](https://github.com/BryanLukehartYun/Empirical-Modeling-and-Data-Driven-Control-of-Nonlinear-Soft-Actuators)
+Full framework for Pneumatic Artificial Muscles that pertains to Empirical Modeling and Controls. Currently features NLARX system identification, UKF state estimation validated via Monte Carlo simulation, and NMPC achieving a 75.6% reduction in tracking error vs. baseline PID derived from legacy MATLAB stack and extended. Recently finished porting to Python as of mid April 2026. **Derived from M.S. thesis research at RIT BioSEL Lab.**
 
 ### [Applied-Dynamics-and-Controls](https://github.com/BryanLukehartYun/Applied-dynamics-and-controls)
 Aerospace GNC portfolio spanning flight dynamics, state estimation, and 
@@ -76,7 +76,7 @@ interplanetary mission design. Modules: 6-DOF nonlinear truth model with
 full modal stability analysis; satellite quaternion UKF with Monte Carlo 
 validation; and constrained Earth-to-Saturn trajectory optimization with 
 symbolically-derived delta-V cost function. Python migration and 
-interactive visualization in progress.
+interactive visualization in progress. This repo serves as proof that 
 
 ---
 
