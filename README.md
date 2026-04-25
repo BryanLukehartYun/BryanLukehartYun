@@ -43,7 +43,21 @@ The technical depth from Federal labs (NRL, ARL) and DOW demonstrates ability to
 
 ---
 
-## Technical Stack
+## Technical Stack  
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=BryanLukehartYun&theme=radical" alt="Streak Card" />
+    </td>
+  </tr>
+</table>
+
+  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BryanLukehartYun&layout=compact&theme=radical" alt="Top Languages" />
+</p> 
+
 
 | Domain | Tools |
 |---|---|
@@ -67,7 +81,7 @@ The technical depth from Federal labs (NRL, ARL) and DOW demonstrates ability to
 
 ## Featured Repositories
 
-### [Empirical-Modeling-and-Control-for-Nonlinear-Soft-Actuators](https://github.com/BryanLukehartYun/Empirical-Modeling-and-Data-Driven-Control-of-Nonlinear-Soft-Actuators) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18737435.svg)](https://doi.org/10.5281/zenodo.18737435)
+### [Empirical-Modeling-and-Control-for-Nonlinear-Soft-Actuators](https://github.com/BryanLukehartYun/Empirical-Modeling-and-Data-Driven-Control-of-Nonlinear-Soft-Actuators) - [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18737435.svg)](https://doi.org/10.5281/zenodo.18737435)
 Full framework for Pneumatic Artificial Muscles that pertains to Empirical Modeling and Controls. Currently features NLARX system identification, UKF state estimation validated via Monte Carlo simulation, and NMPC achieving a 75.6% reduction in tracking error vs. baseline PID derived from legacy MATLAB stack and extended. Recently finished porting to Python as of mid April 2026. **Derived from M.S. thesis research at RIT BioSEL Lab.**
 
 ### [Applied-Dynamics-and-Controls](https://github.com/BryanLukehartYun/Applied-dynamics-and-controls)
@@ -76,7 +90,11 @@ interplanetary mission design. Modules: 6-DOF nonlinear truth model with
 full modal stability analysis; satellite quaternion UKF with Monte Carlo 
 validation; and constrained Earth-to-Saturn trajectory optimization with 
 symbolically-derived delta-V cost function. Python migration and 
-interactive visualization in progress. This repo serves as proof that 
+interactive visualization in progress. This repo serves as proof that I can pivot to GNC or aerospace roles in the Aerospace or Defense sector. This is based on the **Graduate courseworks** 
+* Flight Dynamics 
+* Optimal Design (Course in Optimization techniques both unconstrained and constrained)
+* Nonlinear Controls 
+* Orbital Mechanics 
 
 ---
 
