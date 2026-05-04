@@ -22,18 +22,18 @@ Federal lab experience (NRL, ARL) plus DOW gives me hands-on expertise in materi
 
 ### Technical Transferability
 
-The methods developed for soft actuator control are broadly applicable across nonlinear control domains. Below is how core techniques map to aerospace and robotics:
+The methods developed for soft actuator control are broadly applicable across nonlinear control domains. Below is how core techniques map to aerospace, robotics, and innovation R&D:
 
-| **Your Work** | **Aerospace Application** | **General Robotics Application** |
-|---|---|---|
-| **6-DOF Nonlinear Truth Modeling & Linearization Audit** | High-fidelity flight simulators for aircraft/spacecraft transition phases | Full-body physics engines for legged locomotion or multi-joint systems | 
-| **Nonlinear plant identification (NLARX)** | Aircraft aerodynamic model ID from flight test data | Actuator dynamics learning; system adaptation to aging/temperature |
-| **UKF for state estimation under nonlinear hysteresis** | Aircraft attitude estimation with actuator saturation & sensor bias | Manipulator joint state with friction/backlash; quadrotor localization under IMU drift |
-| **Jacobian Proxy Analysis for Estimator Stability** | Formally quantifying when an EKF will fail during high-dynamic flight maneuvers | Proving estimator reliability for highly nonlinear soft-body or bio-inspired robots | 
-| **NMPC trajectory tracking with constraints** | Reference flight path tracking under aerodynamic uncertainty | Autonomous vehicle waypoint following; robot arm reaching tasks |
-| **Robustness validation via Monte Carlo under chaos** | Flight control under wind gusts + sensor noise + actuator faults | Robot motion under environmental disturbances + wear |
-| **Kinematic Constraints & Collision Avoidance (C++)** | Autonomous docking maneuvers or robotic satellite servicing (OSAM-1 for example) | Safety-Critical Motion Planning: Industrial arms in shared workspaces | 
-| **Large-scale Signal Processing (15M+ samples)** | Real-time telemetry analysis and flight test data reduction for airframe stress | Big Data Robotics: Processing massive sensor logs for fleet-wide predictive maintenance |
+| **Your Work** | **Aerospace Application** | **General Robotics Application** | **R&D & Innovation** |
+|---|---|---|---|
+| **6-DOF Nonlinear Truth Modeling & Linearization Audit** | High-fidelity flight simulators for aircraft/spacecraft transition phases | Full-body physics engines for legged locomotion or multi-joint systems | Enable simulation-driven design of novel soft robot morphologies; accelerate design iteration |
+| **Nonlinear plant identification (NLARX)** | Aircraft aerodynamic model ID from flight test data | Actuator dynamics learning; system adaptation to aging/temperature | Rapidly characterize novel materials and actuators without first-principles models; accelerate material discovery |
+| **UKF for state estimation under nonlinear hysteresis** | Aircraft attitude estimation with actuator saturation & sensor bias | Manipulator joint state with friction/backlash; quadrotor localization under IMU drift | Real-time feedback control on bleeding-edge actuators with unknown nonlinearities; control systems before full characterization |
+| **Jacobian Proxy Analysis for Estimator Stability** | Formally quantifying when an EKF will fail during high-dynamic flight maneuvers | Estimator reliability for nonlinear soft-body or bio-inspired robots | Predict estimator failure modes before prototype testing; de-risk control architectures on novel systems |
+| **NMPC trajectory tracking with constraints** | Reference flight path tracking under aerodynamic uncertainty | Autonomous vehicle waypoint following; robot arm reaching tasks | Optimal performance extraction from novel actuators; validate control feasibility before fabrication |
+| **Robustness validation via Monte Carlo under chaos** | Flight control under wind gusts + sensor noise + actuator faults | Robot motion under environmental disturbances + wear | Predict prototype performance and edge cases through simulation; reduce expensive physical validation cycles |
+| **Kinematic Constraints & Collision Avoidance (C++)** | Autonomous docking maneuvers or robotic satellite servicing (OSAM-1 for example) | Safety-critical motion planning for industrial arms in shared workspaces | Safe exploration of design space for novel morphologies; enable innovation in constrained environments |
+| **Large-scale Signal Processing (15M+ samples)** | Real-time telemetry analysis and flight test data reduction for airframe stress | Processing massive sensor logs for fleet-wide predictive maintenance | Data-driven discovery of hidden patterns; identify material properties and failure signatures from large experimental datasets |
 
 ---
 
