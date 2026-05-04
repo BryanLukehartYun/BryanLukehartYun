@@ -48,9 +48,7 @@ The methods developed for soft actuator control are broadly applicable across no
 </table>
 
   
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BryanLukehartYun&layout=compact&theme=radical" alt="Top Languages" />
-</p> 
+
 
 
 | Domain | Tools |
