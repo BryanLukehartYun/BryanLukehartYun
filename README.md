@@ -1,32 +1,28 @@
 # Bryan Lukehart-Yun
 
 **M.S. Mechanical Engineering — Rochester Institute of Technology (2025)**  
-**Focus: Guidance, Navigation, and Control (Targeting for Roles) | Nonlinear Dynamics with Modeling | State Estimation | Robotics**
+**Focus: Guidance, Navigation, and Control | Nonlinear Dynamics | State Estimation | Robotics**
 
 ---
 
 ## About Me
 
-I'm a recent M.S. graduate in Mechanical Engineering (RIT, Dec 2025) with research focus on nonlinear actuator dynamics and Controls system. My work sits at the intersection of classical control theory and modern nonlinear methods—from 6-DOF fixed-wing simulations to NMPC-driven soft actuator control.
+I'm a recent M.S. graduate in Mechanical Engineering (RIT, Dec 2025) developing control systems for nonlinear soft actuators using classical and modern methods—from 6-DOF simulations to NMPC-driven controllers. Prior to this, I worked across the federal research and industry pipeline: Naval Research Laboratory (robotics integration and multiaxial test systems), Army Research Laboratory (MEMS fabrication and sensor V&V), Harvard under **Whitesides Research Group** (soft actuator fabrication), and DOW Inc. (materials testing and Python-based measurement automation).
 
-Currently preparing **three manuscripts for submission** to IEEE Transactions on Robotics, International Journal of Robotics Research, and Data in Brief on nonlinear soft actuator control. Expected submission: Q2 2026; projected publication: Q4 2026. 
-
-I am also currently in the process of releasing full framework regarding thesis when both T-RO and Data in Brief are submitted. 
+Currently preparing **three manuscripts for submission** to IEEE Transactions on Robotics, International Journal of Robotics Research, and Data in Brief on nonlinear soft actuator control. Framework release planned for Q2 2026. 
 
 **Independent research contributions (post-thesis, Dec 2025 onward):**
 * Identified and quantified the "Jacobian spike" failure mode in EKF/CKF when applied to soft actuators with non-differentiable hysteresis
 * Developed UKF-based derivative-free estimation strategy, eliminating −7.5 mm tracking bias and achieving 99.9% state estimation fidelity (Python)
-* Simulated NMPC + UKF combo achieving 1–6 mm RMSE tracking under 33–140% chaotic environmental perturbations based on a anonymized slice of data from research. 
+* Simulated NMPC + UKF combo achieving 1–6 mm RMSE tracking under 33–140% chaotic environmental perturbations 
 
-I bring classical aerospace GNC knowledge (based on graduate coursework) such as 6-DOF nonlinear truth models, linearization audits, modal stability analysis, and the full V&V workflow that flight control development requires in theory. 
-
-Prior to graduate research, I've worked across the federal research and industry pipeline: Naval Research Laboratory (robotics integration and multiaxial test systems), Army Research Laboratory (MEMS fabrication and sensor V&V), Harvard under **Whitesides Research Group** (soft actuator fabrication), and DOW Inc. (materials testing and Python-based measurement automation).
+Federal lab experience (NRL, ARL) plus DOW gives me hands-on expertise in materials science, sensor integration, and manufacturing constraints—all critical for aerospace/robotics design. I also bring classical aerospace GNC expertise from graduate-level coursework in flight dynamics, optimal design, nonlinear controls, and orbital mechanics.
 
 ---
 
-## Domain-Agnostic GNC: From Soft Actuators and Co-ops to Aerospace & Robotics
+### Technical Transferability
 
-While my recent research derived from my M.S. thesis focuses on soft pneumatic actuators as well as prior works, the core contributions are **universally applicable** across nonlinear control domains. The soft actuator problem is deliberately chosen as a difficult testbed since if these methods solve hysteretic nonlinearity, they transfer to less-constrained systems.
+The methods developed for soft actuator control are broadly applicable across nonlinear control domains. Below is how core techniques map to aerospace and robotics:
 
 | **Your Work** | **Aerospace Application** | **General Robotics Application** |
 |---|---|---|
@@ -37,9 +33,7 @@ While my recent research derived from my M.S. thesis focuses on soft pneumatic a
 | **NMPC trajectory tracking with constraints** | Reference flight path tracking under aerodynamic uncertainty | Autonomous vehicle waypoint following; robot arm reaching tasks |
 | **Robustness validation via Monte Carlo under chaos** | Flight control under wind gusts + sensor noise + actuator faults | Robot motion under environmental disturbances + wear |
 | **Kinematic Constraints & Collision Avoidance (C++)** | Autonomous docking maneuvers or robotic satellite servicing (OSAM-1 for example) | Safety-Critical Motion Planning: Industrial arms in shared workspaces | 
-| **Large-scale Signal Processing (15M+ samples)** | Real-time telemetry analysis and flight test data reduction for airframe stress | Big Data Robotics: Processing massive sensor logs for fleet-wide predictive maintenance |  
-
-The technical depth from Federal labs (NRL, ARL) and DOW demonstrates ability to work across materials science, sensor integration, and manufacturing constraints which are all applicable to aerospace/robotics system design.
+| **Large-scale Signal Processing (15M+ samples)** | Real-time telemetry analysis and flight test data reduction for airframe stress | Big Data Robotics: Processing massive sensor logs for fleet-wide predictive maintenance |
 
 ---
 
@@ -81,20 +75,11 @@ The technical depth from Federal labs (NRL, ARL) and DOW demonstrates ability to
 
 ## Featured Repositories
 
-### [Empirical-Modeling-and-Control-for-Nonlinear-Soft-Actuators](https://github.com/BryanLukehartYun/Empirical-Modeling-and-Data-Driven-Control-of-Nonlinear-Soft-Actuators) - [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18737435.svg)](https://doi.org/10.5281/zenodo.18737435)
-Full framework for Pneumatic Artificial Muscles that pertains to Empirical Modeling and Controls. Currently features NLARX system identification, UKF state estimation validated via Monte Carlo simulation, and NMPC achieving a 75.6% reduction in tracking error vs. baseline PID derived from legacy MATLAB stack and extended. Recently finished porting to Python as of mid April 2026. **Derived from M.S. thesis research at RIT BioSEL Lab.**
+### [Empirical-Modeling-and-Data-Driven-Control-for-Nonlinear-Soft-Actuators](https://github.com/BryanLukehartYun/Empirical-Modeling-and-Data-Driven-Control-of-Nonlinear-Soft-Actuators) - [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18737435.svg)](https://doi.org/10.5281/zenodo.18737435)
+Soft actuator control framework combining system identification, state estimation, and trajectory optimization. Started as M.S. thesis research and independently extended post-graduation with ongoing contributions. Achieves 75.6% error reduction vs. legacy PID approaches. Recently ported to Python for reproducibility and broader accessibility.
 
 ### [Applied-Dynamics-and-Controls](https://github.com/BryanLukehartYun/Applied-dynamics-and-controls)
-Aerospace GNC portfolio spanning flight dynamics, state estimation, and 
-interplanetary mission design. Modules: 6-DOF nonlinear truth model with 
-full modal stability analysis; satellite quaternion UKF with Monte Carlo 
-validation; and constrained Earth-to-Saturn trajectory optimization with 
-symbolically-derived delta-V cost function. Python migration and 
-interactive visualization in progress. This repo serves as proof that I can pivot to GNC or aerospace roles in the Aerospace or Defense sector. This is based on the **Graduate courseworks** 
-* Flight Dynamics 
-* Optimal Design (Course in Optimization techniques both unconstrained and constrained)
-* Nonlinear Controls 
-* Orbital Mechanics 
+Aerospace GNC portfolio covering flight dynamics, orbital mechanics, state estimation, and interplanetary mission design. Includes 6-DOF nonlinear truth models, satellite attitude estimation, and Earth-to-Saturn trajectory optimization with symbolic delta-V derivations. Built as graduate-level coursework in flight dynamics, optimal design, and nonlinear controls. Python migration and interactive visualization in progress. 
 
 ---
 
@@ -122,14 +107,13 @@ A fully local, privacy-first budget aggregator built in Python. Ingests CSV expo
 **Status:** Under embargo pending publications in **IEEE T-RO, IJRR, and Data in Brief**  
 **Archive:** [RIT Digital Commons](https://repository.rit.edu)   
 
-> Note: I'm still involved with the BioSEL lab on assistance and operating in a "Client" capacity while Publications are ongoing. This is projected to end late ~2026 but is not listed with the timeframe
+> Note: Currently supporting BioSEL Lab through 2026 while publications are in progress.
 
 **REU:** Harvard University — **Whitesides Research Group** (2019)    
 Fabrication and validation of kirigami actuators. Direct academic lineage to the foundational soft robotics research that motivates this work.  
 
 [REU Profile Link](https://sites.google.com/g.harvard.edu/reu-participant-profiles/2019)
 
-> Note: In no such capacity or any statements do I claim to be part of his umbrella, this is just a informal showcase showing where the origins of my experience originated. 
 ---
 
 ## Contact
