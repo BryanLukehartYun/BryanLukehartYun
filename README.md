@@ -20,7 +20,49 @@ Federal lab experience (NRL, ARL) plus DOW gives me hands-on expertise in materi
 
 ---
 
-### Technical Transferability
+## Featured Repositories
+
+### [Empirical-Modeling-and-Data-Driven-Control-for-Nonlinear-Soft-Actuators](https://github.com/BryanLukehartYun/Empirical-Modeling-and-Data-Driven-Control-of-Nonlinear-Soft-Actuators) - [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18737435.svg)](https://doi.org/10.5281/zenodo.18737435)
+Soft actuator control framework combining system identification, state estimation, and trajectory optimization. Started as M.S. thesis research and independently extended post-graduation with ongoing contributions. Achieves 75.6% error reduction vs. legacy PID approaches. Recently ported to Python for reproducibility and broader accessibility.
+
+### [Applied-Dynamics-and-Controls](https://github.com/BryanLukehartYun/Applied-dynamics-and-controls)
+Aerospace GNC portfolio covering flight dynamics, orbital mechanics, state estimation, and interplanetary mission design. Includes 6-DOF nonlinear truth models, satellite attitude estimation, and Earth-to-Saturn trajectory optimization with symbolic delta-V derivations. Built as graduate-level coursework in flight dynamics, optimal design, and nonlinear controls. Python migration and interactive visualization in progress. 
+
+---
+
+## Technical Stack  
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=BryanLukehartYun&theme=radical" alt="Streak Card" />
+    </td>
+  </tr>
+</table>
+
+> **Note:** Streak stats represent GitHub activity only. Significant development also tracked on self-hosted Forgejo instance for private research and internal projects.
+
+| Domain | Tools |
+|---|---|
+| Primary Language | Python |
+| Legacy / Simulation | MATLAB / Simulink |
+| Embedded & Robotics | C++ |
+| Control Methods | NMPC, PID, State-Space |
+| Operating Systems | Linux (Arch, Debian), MacOS, Windows (Work-Related)|
+| Git | GitHUB, Forgejo (Fork of Gitea)|
+| Estimation | UKF, EKF, CKF |
+| System ID | NLARX (Sigmoid, Wavelet, idTreePartition), Mathematical Modeling, Model Selection |
+| Statistical Analysis | GMM (AIC / BIC), Multimodality Testing (Hartigan's Dip, Silverman's Test, Excess Mass)
+| Fabrication | FDM, SLA, Soft Robotics, CAD |
+| Standards | ASTM C642, E2178, E2357, D143 |
+
+> Self-hosted Forgejo + Bookstack on homelab (Tailscale) for private research versioning, documentation, and technical projects. 
+
+> Also making use of dedicated and secondary hardwares to run Modeling & Simulation, Computational, and Machine Learning (based on Brunton & Kutz's [DATA DRIVEN SCIENCE & ENGINEERING: Machine Learning, Dynamical Systems and Control](https://databookuw.com/)).
+
+---
+
+## Technical Transferability
 
 The methods developed for soft actuator control are broadly applicable across nonlinear control domains. Below is how core techniques map to aerospace, robotics, and innovation R&D:
 
@@ -37,51 +79,6 @@ The methods developed for soft actuator control are broadly applicable across no
 
 ---
 
-## Technical Stack  
-
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=BryanLukehartYun&theme=radical" alt="Streak Card" />
-    </td>
-  </tr>
-</table>
-
-  
-
-
-
-| Domain | Tools |
-|---|---|
-| Primary Language | Python |
-| Legacy / Simulation | MATLAB / Simulink |
-| Embedded & Robotics | C++ |
-| Control Methods | NMPC, PID, State-Space |
-| Operating Systems | Linux (Arch, Debian), MacOS, Windows (Work-Related)|
-| Git | GitHUB, Forgejo (Fork of Gitea)|
-| Estimation | UKF, EKF, CKF |
-| System ID | NLARX (Sigmoid, Wavelet, idTreePartition), Mathematical Modeling, Model Selection |
-| Statistical Analysis | GMM (AIC / BIC), Multimodality Testing (Hartigan’s Dip, Silverman’s Test, Excess Mass)
-| Fabrication | FDM, SLA, Soft Robotics, CAD |
-| Standards | ASTM C642, E2178, E2357, D143 |
-
-> Self-hosted Forgejo + Bookstack on homelab (Tailscale) for private research versioning, documentation, and technical projects. 
-
-> Also making use of dedicated and secondary hardwares to run Modeling & Simulation, Computational, and Machine Learning (based on Brunton & Kutz's [DATA DRIVEN SCIENCE & ENGINEERING: Machine Learning, Dynamical Systems and Control](https://databookuw.com/)).
-
----
-
-## Featured Repositories
-
-### [Empirical-Modeling-and-Data-Driven-Control-for-Nonlinear-Soft-Actuators](https://github.com/BryanLukehartYun/Empirical-Modeling-and-Data-Driven-Control-of-Nonlinear-Soft-Actuators) - [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18737435.svg)](https://doi.org/10.5281/zenodo.18737435)
-Soft actuator control framework combining system identification, state estimation, and trajectory optimization. Started as M.S. thesis research and independently extended post-graduation with ongoing contributions. Achieves 75.6% error reduction vs. legacy PID approaches. Recently ported to Python for reproducibility and broader accessibility.
-
-### [Applied-Dynamics-and-Controls](https://github.com/BryanLukehartYun/Applied-dynamics-and-controls)
-Aerospace GNC portfolio covering flight dynamics, orbital mechanics, state estimation, and interplanetary mission design. Includes 6-DOF nonlinear truth models, satellite attitude estimation, and Earth-to-Saturn trajectory optimization with symbolic delta-V derivations. Built as graduate-level coursework in flight dynamics, optimal design, and nonlinear controls. Python migration and interactive visualization in progress. 
-
----
-
-
 ## Highlights
 
 **[Beyond Stability: NMPC Robustness Under 120% Gain Jitter](https://www.linkedin.com/posts/bryan-lukehart-yun_gnc-robotics-controltheory-activity-7435046592988168192-djBY?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnlDeIBNAmrm1dfSEt62mCOeOPvBMOiuFk)**  
@@ -89,10 +86,15 @@ Aerospace GNC portfolio covering flight dynamics, orbital mechanics, state estim
 Stress-tested the Sigmoid-NLARX NMPC framework against chaotic 50–120% gain perturbations simulating real-world pressure leakage and effort spikes. NMPC held 3.721 mm RMSE while PID cascaded into failure. Identified the 110% stable boundary and selected the 400s compute baseline as the optimal deployment candidate — nearly 4x more efficient than the max-precision configuration. An extension of the GNC Robotics Framework (Report 03.5), independent of ongoing publications.
 
 ---
-## Projects
 
-### [PersonalFinance — Budget Aggregator](https://github.com/BryanLukehartYun/PersonalFinance-BudgetAggregator)
-A fully local, privacy-first budget aggregator built in Python. Ingests CSV exports from multiple banks and runs every transaction through a 5-layer categorization pipeline — exact lookup, fuzzy matching (RapidFuzz), and semantic similarity via a local offline BGE encoder — outputting a single annotated master CSV. No data leaves the local machine. Built with `uv` for deterministic dependency management across macOS and Linux.
+## Publications
+
+**In Preparation (2026)**
+- Stable Open Loop Modeling on McKibben Muscle with Tunable Slider (Variant based on Thesis) — *IEEE Transactions on Robotics*
+- Title TBD — *International Journal of Robotics Research*
+- Title TBD — *Data in Brief*
+
+> Titles and scope subject to refinement as submissions progress.
 
 ---
 
@@ -111,6 +113,13 @@ A fully local, privacy-first budget aggregator built in Python. Ingests CSV expo
 Fabrication and validation of kirigami actuators. Direct academic lineage to the foundational soft robotics research that motivates this work.  
 
 [REU Profile Link](https://sites.google.com/g.harvard.edu/reu-participant-profiles/2019)
+
+---
+
+## Projects
+
+### [PersonalFinance — Budget Aggregator](https://github.com/BryanLukehartYun/PersonalFinance-BudgetAggregator)
+A fully local, privacy-first budget aggregator built in Python. Ingests CSV exports from multiple banks and runs every transaction through a 5-layer categorization pipeline — exact lookup, fuzzy matching (RapidFuzz), and semantic similarity via a local offline BGE encoder — outputting a single annotated master CSV. No data leaves the local machine. Built with `uv` for deterministic dependency management across macOS and Linux.
 
 ---
 
