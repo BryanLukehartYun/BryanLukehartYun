@@ -7,11 +7,11 @@
 
 ## About Me
 
-M.S. Mechanical Engineer specializing in nonlinear system identification and empirical modeling. Processed a **43.8M-sample dataset** (23,082 actuation cycles across 6 muscle configurations and 24 operating conditions) to design and validate nonlinear models for chaotic physical systems, achieving a **91% reduction in open-loop hysteresis drift** in pneumatic soft actuators.
+M.S. Mechanical Engineer specializing in nonlinear system identification and empirical modeling. Designed and validated nonlinear models for chaotic physical systems across **6 distinct configurations and 24 operating conditions**, achieving a **91% reduction in open-loop hysteresis drift** in pneumatic soft actuators.
 
 Previously worked across the federal research and industry pipeline: Naval Research Laboratory (robotics integration and multiaxial test systems), Army Research Laboratory (MEMS fabrication and sensor V&V), Harvard under the **Whitesides Research Group** (soft actuator fabrication), and DOW Inc. (materials testing and Python-based measurement automation).
 
-Preparing **two manuscripts for submission** to IEEE Transactions on Robotics and International Journal of Robotics Research on nonlinear soft actuator control, with a Data in Brief dataset release already published to Zenodo.
+Preparing **three manuscripts for submission** to IEEE Transactions on Robotics and International Journal of Robotics Research on nonlinear soft actuator control, with a Data in Brief dataset + Zenodo release being in final preperations.
 
 **Independent research contributions (post-thesis, Dec 2025 onward):**
 * Identified and quantified the "Jacobian spike" failure mode in EKF/CKF when applied to soft actuators with non-differentiable hysteresis
@@ -22,7 +22,7 @@ Preparing **two manuscripts for submission** to IEEE Transactions on Robotics an
 * Applied Mahalanobis outlier detection (χ² 99.7% threshold) with 95% confidence ellipses fit via eigendecomposition of the centroid covariance matrix
 * Parallelized dataset processing across all CPU cores via `ProcessPoolExecutor`; pipeline scales to hundreds of CSVs in a single invocation
 * Validated Python port against original MATLAB implementation within **0.3–3.9%** across all core metrics
-* Documenting 43.8M-sample dataset (23,082 cycles, 6 muscle specs, 24 operating conditions) to Zenodo with full pipeline, raw CSVs, Arduino firmware, and mechanical drawings in preparation for *Data in Brief* submission
+* Documenting 50M+-sample dataset (6 muscle specs, 24 operating conditions) to Zenodo with full pipeline, raw CSVs, Arduino firmware, and mechanical drawings in preparation for *Data in Brief* submission
 
 Federal lab experience (NRL, ARL) plus DOW gives me hands-on expertise in materials science, sensor integration, and manufacturing constraints, all of which are critical for aerospace/robotics design. I also bring classical aerospace GNC expertise from graduate-level coursework in flight dynamics, optimal design, nonlinear controls, and orbital mechanics.
 
